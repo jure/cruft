@@ -1,4 +1,5 @@
-![Cruft](http://i.imgur.com/iHgiFl.jpg)
+![Cruft](http://i.imgur.com/Y5JOL.jpg)
+
 The Hardvard Cruft Laboratory, birthplace of the term 'cruft'. Image by @brettstil.
 
 # Cruft
