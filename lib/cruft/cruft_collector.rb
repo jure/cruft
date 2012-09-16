@@ -12,8 +12,7 @@ module CruftCollector
       files = []
       begin
         Dir.chdir(app_dir) do
-          files = Dir['**/*.rb'] + Dir['**/*.js'] + Dir['**/*.coffee'] + Dir['**/*.css'] +
-                  Dir['**/*.scss']
+          files = Dir['**/*.rb']
         end
       rescue SystemCallError
         puts "No cruftworthy files found in directory 'app'."
