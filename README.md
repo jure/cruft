@@ -1,3 +1,6 @@
+![Cruft](http://i.imgur.com/iHgiFl.jpg)
+The Hardvard Cruft Laboratory, birthplace of the term 'cruft'. Image by @brettstil.
+
 # Cruft
 
 Cruft enables you to keep track of workarounds you had to implement in order
@@ -7,7 +10,7 @@ your code is still written with those assumptions and is needlessly complex.
 
 Cruft compiles a Cruftfile by looking at all Ruby files in your `app` directory,
 and finding comments which start with `#cruft:`. Every line until the next line that is not a comment,
-will be included in the Cruftfile.  
+will be included in the `Cruftfile`.
 
 ## Installation
 
@@ -26,9 +29,11 @@ Or install it yourself as:
 ## Usage
 
 You cd into the Rails app directory:
+
     $ cd /path/to/rails_app
-   
+
 And run cruft with bundle exec:
+
     $ bundle exec cruft
 
 ## Contributing
