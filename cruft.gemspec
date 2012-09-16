@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["me@juretriglav.si"]
   gem.description   = %q{Keeps a cruft.txt file in the app directory, which collects #cruft: notes from the app source code in a single place.}
   gem.summary       = %q{Cruft manager}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/jure/cruft"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
