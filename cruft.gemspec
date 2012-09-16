@@ -3,9 +3,9 @@ require File.expand_path('../lib/cruft/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Jure Triglav"]
-  gem.email         = ["juretriglav@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.email         = ["me@juretriglav.si"]
+  gem.description   = %q{Keeps a cruft.txt file in the app directory, which collects #cruft: notes from the app source code in a single place.}
+  gem.summary       = %q{Cruft manager}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
